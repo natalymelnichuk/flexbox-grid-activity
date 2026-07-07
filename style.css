@@ -13,7 +13,7 @@ body {
     gap: 1.5em;
     padding: 2em;
     background-color: hsl(0, 0%, 81%);
-    width: 100%;
+    width: auto;
 }
 
 .container h3, p {
