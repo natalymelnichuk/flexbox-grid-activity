@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-size: 13px;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .container {
@@ -7,15 +9,16 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 1em;
-    padding: 0.5em;
+    gap: 1.5em;
+    padding: 2em;
+    background-color: hsl(0, 0%, 81%);
 }
 
 .container h3, p {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin: 0;
+    font-size: 16px;
 }
 
 .container h4, q {
@@ -24,23 +27,31 @@ body {
     font-style: normal;
     margin: 0;
 }
+.container h3 {
+    margin: 0 0 0.1em 0;
+}
+
+.container p {
+    margin: 1em 0;
+}
 
 .testimonial {
     border-radius: 0.5em;
+    padding: 1.5em;
 }
 
 .testimonial img {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     border: 1px solid hsl(0, 0%, 81%);
-    margin: 0.5em;
+    margin-right: 1.5em;
 }
 
 .personal-info {
     display: flex;
     justify-content: start;
-
+    align-items: center;
 }
 
 .personal-text {
