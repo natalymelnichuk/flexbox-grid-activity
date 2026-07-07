@@ -94,5 +94,27 @@ body {
 }
 
 footer {
-    margin-top: 100px
+    margin: 20px 0;
+}
+
+@media (max-width: 375px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+    #test1 {
+        grid-row: 1 / span 2;
+        grid-column: auto;
+    }
+
+    #test4 {
+        grid-column: auto;
+    }
+
+    #test5 {
+        grid-row: 6 / span 2;
+        grid-column: auto;
+    } 
 }
